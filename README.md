@@ -1,4 +1,4 @@
-# WebVR Image Recognition
+# WebVR Image Targets  
   
 # Virtual prototyping for product development
   
