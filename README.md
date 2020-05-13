@@ -18,8 +18,14 @@ Note: You'll need AR supported phones for each of the assignments.
 Well the answer is simple enough... You can have any image taken from google and also a gltf 3D model from [Poly](http://poly.google.com) or any 3D model sites you know (Sketchfab, turbosquid etc)... Or just use one of the models I'll provide. So what we are gonna do is making the image the target for our model. What that will do is, as we place our camera over that image, the model loads up... One Example is this a Web AR by [Miller Lite](https://youtu.be/G-5ealr3Zi0). 
 
 # Steps:
-1. Firstly you'll need to make an account to so head straight to [8th wall's official site](https://www.8thwall.com).  
+1. Firstly you'll need to make an account so head straight to [8th wall's official site](https://www.8thwall.com).  
 2. Choose the option of Web Developer and make a new project, call it whatever you want to.
 ![](ss.png)  
 This is what it will look like when you have signed in and created a project..    
-3. We will get back to this website but now open a new tab, go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ‘git clone https://github.com/8thwall/web.git’ in your command line. You can now see a folder named web in your desktop.
+3. Click over your project and then click device authorization. You will have to scan the QR code through your mobile so your device gets authorized (web developer 'on')..  
+![](ss2.png)  
+This is what it looks like..
+3. Click over your project and then click device authorization. You will have to scan the QR code through your mobile so your device gets authorized (web developer 'on')..  
+
+4. Go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ‘git clone https://github.com/8thwall/web.git’ in your command line. You can now see a folder named web in your desktop.
+5. Now 'cd web' on your terminal and then 
