@@ -51,6 +51,16 @@ See that you are in serve folder only when you run ```npm install``` in your ter
 This is npm installation error which tells you to audit fix and says found 6(or more) high severity vulnerabilities...
 Fix it by typing ```npm cache clean --force``` so if any log of files prevent installing npm, or there is unexpected end of JSON.. it can be fixed.. Also don't forget to ```cd ..``` to go back to web folder before starting the local server..
   
+# How to submit  
+* Fork this repo. 
+* Clone it to your Desktop or to some folder. 
+* Make necessary changes and complete the assignment.  
+* See git status to know the changes you made. 
+* One sure perform git add -u :/ , git add * :/ 
+* Then with proper commits push those changes i.e. git commit -m "my change" and then git push
+* These changes have taken place in your forked repo only. 
+* Send pull request for us to see and review those changes. 
+  
 ## Wrapping up  
 Providing image recognition without the need of having an app and just scanning through a QR code leads to so many wonderful opportunities and brings context to the user when and where they need it. It can just be a shoe image scanning over which can load up a shoe model and it can make an effective commercial and probably the user will show interest and buy it... Hopefully these tasks will give you immense kneledge of webAR and 8th wall and most of you'll be able to complete them...  
    
