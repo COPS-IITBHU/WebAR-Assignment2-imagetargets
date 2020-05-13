@@ -1,4 +1,4 @@
-# WebVR Image Targets    
+# WebAR Image Targets    
 ## Virtual prototyping for product development
   
 Developing Virtual Reality based solutions in areas like: (i) Creating a virtual showcase/display centre of industrial products – developing solutions for one type of industry like garments, shoe industry etc. (Virtual prototyping for product development).   
