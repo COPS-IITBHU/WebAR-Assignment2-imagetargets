@@ -22,7 +22,7 @@ Well the answer is simple enough... You can have any image taken from google and
 2. Choose the option of Web Developer and make a new project, call it whatever you want to.
 ![](ss.png)  
 This is what it will look like when you have signed in and created a project..    
-3. Click over your project and then click device authorization. You will have to scan the QR code through your mobile so your device gets authorized (web developer 'on')..  
+3. Click over your project and then click device authorization. You will have to scan the QR code through your mobile so your device gets authorized (web developer 'on').. Also, I recommend to connect your mobile phones and laptop/PC to the same wifi or use the mobile's hotspot in your laptops, so it's easier to connect and authorize incase it's not able to..   
 ![](ss2.png)  
 This is what it looks like..
 4. We will get back to this website again, for now go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ‘git clone https://github.com/8thwall/web.git’ in your command line. You can now see a folder named web in your desktop.
@@ -31,4 +31,8 @@ cd serve
 npm install     
 cd ..     
 ./serve/bin/serve -n -d examples/aframe/flyer/ -p 7777 
-A QR code should appear in your command terminal (sometimes you have to resize the command terminal window for it to show properly). 
+A QR code should appear in your command terminal (sometimes you have to resize the command terminal window for it to show properly). So far so good, if you get any errors in a section below I have written how to solve them.   
+6. Now to establish a connection between the 8th wall project you just made and the web folder you downloaded... Go to your project at 8th wall, click over your project, click on settings on the left side (⚙️ Gear Emoji).. click on my app key and copy it... then in the web folder go to the directory ‘web/examples/aframe’, open the flyer example and click on index.html (use a text editor). On line 17, replace ‘XXXXX’ with the App Key that you copied.  
+7. On your project of 8th wall, click on manage image targets... Go to ‘web/examples/aframe/flyer/targets’ and select ‘model-target.jpg’. Click on Upload. Finish by clicking on Save and tick load automatically.  
+8. Now use your authorized phone, scan the code from your terminal  You might get a screen that says ‘Your connection is not private’. If so, click on Advanced at the bottom and then click on Proceed to http://192.168.43.198:7777.
+9. You will get the same result as this... 
