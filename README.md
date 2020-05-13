@@ -2,7 +2,7 @@
 ## Augmented prototyping for product development
   
 Developing Augmented/Virtual Reality based solutions in areas like: (i) Creating a virtual showcase/display centre of industrial products – developing solutions for one type of industry like garments, shoe industry etc. (Augmented prototyping for product development).   
-Which is one of the two choices of assignment 2 you have.
+It is one of the two choices of assignment 2 you have.
 
 # Jump In  
 ## What you will need: 
