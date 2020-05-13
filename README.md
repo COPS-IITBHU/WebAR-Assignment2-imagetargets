@@ -38,10 +38,15 @@ A QR code should appear in your command terminal (sometimes you have to resize t
 9. When you'll allow camera and scan that jellyfish modal-target.jpg ...You will get the same result as this [video](https://vimeo.com/417849499?utm_source=email&utm_medium=vimeo-cliptranscode-201504&utm_campaign=29220)... 
   
 # Customization
-Make your own customizations... By changing the model-target.jpg with any image you get from google and use your own gltf other that the regular jellyfish... Your task is developing solutions for one type of industry like garments, shoe industry, maybe coke... Like this [video I created](https://vimeo.com/user115354946/review/417852025/542b350d6a). The score for completion of the whole task is 100 points with 10 points in customization to something meaningful... Rest 90 points in achieving the jellyfish AR shown in step 9 above.
+Make your own customizations... By changing the model-target.jpg with any image you get from google and use your own gltf other that the regular jellyfish... Your task is developing solutions for one type of industry like garments, shoe industry, maybe coke... Like this [video I created](https://vimeo.com/user115354946/review/417852025/542b350d6a). The score for completion of the whole task is 100 points with 30 points in customization to something meaningful... Rest 70 points in achieving the jellyfish AR shown in step 9 above.
   
 ## Solving Errors
 See that you are in serve folder only when you run ```npm install``` in your terminal. Still sometimes this bug appears
-![](bug.png)  
+![](bugs.png)  
 This is npm installation error which tells you to audit fix and says found 6(or more) high severity vulnerabilities...
-Fix it by typing ```npm cache clean --force``` so if any log of files prevent installing npm, or there is unexpected end of JSON.. it can be fixed.. Also don't forget to ```cd ..``` before starting the local server..
+Fix it by typing ```npm cache clean --force``` so if any log of files prevent installing npm, or there is unexpected end of JSON.. it can be fixed.. Also don't forget to ```cd ..``` to go back to web folder before starting the local server..
+  
+## Wrapping up  
+Providing image recognition without the need of having an app and just scanning through a QR code leads to so many wonderful opportunities and brings context to the user when and where they need it. It can just be a shoe image scanning over which can load up a shoe model and it can make an effective commercial and probably the user will show interest and buy it... Hopefully these tasks will give you immense kneledge of webAR and 8th wall and most of you'll be able to complete them...  
+   
+![](8th.png)
