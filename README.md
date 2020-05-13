@@ -25,7 +25,10 @@ This is what it will look like when you have signed in and created a project..
 3. Click over your project and then click device authorization. You will have to scan the QR code through your mobile so your device gets authorized (web developer 'on')..  
 ![](ss2.png)  
 This is what it looks like..
-3. Click over your project and then click device authorization. You will have to scan the QR code through your mobile so your device gets authorized (web developer 'on')..  
-
-4. Go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ‘git clone https://github.com/8thwall/web.git’ in your command line. You can now see a folder named web in your desktop.
-5. Now 'cd web' on your terminal and then 
+4. We will get back to this website again, for now go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ‘git clone https://github.com/8thwall/web.git’ in your command line. You can now see a folder named web in your desktop.
+5. Now 'cd web' on your terminal and then   
+cd serve     
+npm install     
+cd ..     
+./serve/bin/serve -n -d examples/aframe/flyer/ -p 7777 
+A QR code should appear in your command terminal (sometimes you have to resize the command terminal window for it to show properly). 
