@@ -20,10 +20,14 @@ Well the answer is simple enough... You can have any image taken from google and
 # Steps:
 1. Firstly you'll need to make an account so head straight to [8th wall's official site](https://www.8thwall.com).  
 2. Choose the option of Web Developer and make a new project, call it whatever you want to.
-![](ss.png)  
+  
+![](ss.png) 
+  
 This is what it will look like when you have signed in and created a project..    
 3. Click over your project and then click device authorization. You will have to scan the QR code through your mobile so your device gets authorized (web developer 'on').. Also, I recommend to connect your mobile phones and laptop/PC to the same wifi or use the mobile's hotspot in your laptops, so it's easier to connect and authorize incase it's not able to..   
+  
 ![](ss2.png)  
+  
 This is what it looks like..
 4. We will get back to this website again, for now go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ```git clone https://github.com/8thwall/web.git``` in your command line. You can now see a folder named web in your desktop.
 5. Now ```cd web``` on your terminal and then   
@@ -42,7 +46,9 @@ Make your own customizations... By changing the model-target.jpg with any image 
   
 ## Solving Errors
 See that you are in serve folder only when you run ```npm install``` in your terminal. Still sometimes this bug appears
-![](bugs.png)  
+  
+![](bugs.png)
+  
 This is npm installation error which tells you to audit fix and says found 6(or more) high severity vulnerabilities...
 Fix it by typing ```npm cache clean --force``` so if any log of files prevent installing npm, or there is unexpected end of JSON.. it can be fixed.. Also don't forget to ```cd ..``` to go back to web folder before starting the local server..
   
