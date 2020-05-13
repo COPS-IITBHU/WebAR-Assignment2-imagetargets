@@ -38,7 +38,7 @@ This is what it looks like..
 A QR code should appear in your command terminal (sometimes you have to resize the command terminal window for it to show properly). So far so good, if you get any errors in a section below I have written how to solve them.   
 6. Now to establish a connection between the 8th wall project you just made and the web folder you downloaded... Go to your project at 8th wall, click over your project, click on settings on the left side (⚙️ Gear Emoji).. click on my app key and copy it... then in the web folder go to the directory ‘web/examples/aframe’, open the flyer example and click on index.html (use a text editor). On line 17, replace ‘XXXXX’ with the App Key that you copied.  
 7. On your project of 8th wall, click on manage image targets... Go to ‘web/examples/aframe/flyer/targets’ and select ‘model-target.jpg’. Click on Upload. Finish by clicking on Save and tick load automatically.  
-8. Now use your authorized phone, scan the code from your terminal  You might get a screen that says ‘Your connection is not private’. If so, click on Advanced at the bottom and then click on Proceed to http://192.168.43.198:7777.
+8. Now use your authorized phone, scan the code from your terminal  You might get a screen that says ‘Your connection is not private’. If so, click on Advanced at the bottom and then click on Proceed to http://192.168.43.198:7777.  
 9. When you'll allow camera and scan that jellyfish modal-target.jpg ...You will get the same result as this [video](https://vimeo.com/417849499?utm_source=email&utm_medium=vimeo-cliptranscode-201504&utm_campaign=29220)... 
   
 # Customization
