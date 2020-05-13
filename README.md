@@ -55,9 +55,9 @@ Fix it by typing ```npm cache clean --force``` so if any log of files prevent in
 * Fork this repo. 
 * Clone it to your Desktop or to some folder. 
 * Make necessary changes and complete the assignment. (Add the web folder in which you made changes).    
-* See git status to know the changes you made. 
-* Once sure perform git add -u :/ , git add * :/ 
-* Then with proper commits push those changes i.e. git commit -m "my change" and then git push
+* See ```git status``` to know the changes you made. 
+* Once sure perform ```git add -u :/``` , ```git add * :/``` 
+* Then with proper commits push those changes i.e. ```git commit -m "my change"``` and then ```git push```
 * These changes have taken place in your forked repo only. 
 * Send pull request for us to see and review those changes. 
   
