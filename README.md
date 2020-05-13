@@ -1,7 +1,7 @@
 # WebAR Image Targets    
-## Virtual prototyping for product development
+## Augumented prototyping for product development
   
-Developing Virtual Reality based solutions in areas like: (i) Creating a virtual showcase/display centre of industrial products – developing solutions for one type of industry like garments, shoe industry etc. (Virtual prototyping for product development).   
+Developing Augumented/Virtual Reality based solutions in areas like: (i) Creating a virtual showcase/display centre of industrial products – developing solutions for one type of industry like garments, shoe industry etc. (Augumented prototyping for product development).   
 Which is one of the two choices of assignment 2 you have.
 
 # Jump In  
