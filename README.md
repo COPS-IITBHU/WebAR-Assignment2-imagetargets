@@ -25,12 +25,12 @@ This is what it will look like when you have signed in and created a project..
 3. Click over your project and then click device authorization. You will have to scan the QR code through your mobile so your device gets authorized (web developer 'on').. Also, I recommend to connect your mobile phones and laptop/PC to the same wifi or use the mobile's hotspot in your laptops, so it's easier to connect and authorize incase it's not able to..   
 ![](ss2.png)  
 This is what it looks like..
-4. We will get back to this website again, for now go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ‘git clone https://github.com/8thwall/web.git’ in your command line. You can now see a folder named web in your desktop.
-5. Now 'cd web' on your terminal and then   
-cd serve     
-npm install     
-cd ..     
-./serve/bin/serve -n -d examples/aframe/flyer/ -p 7777 
+4. We will get back to this website again, for now go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ```git clone https://github.com/8thwall/web.git``` in your command line. You can now see a folder named web in your desktop.
+5. Now ```cd web``` on your terminal and then   
+```cd serve ```    
+```npm install```     
+```cd ..```     
+```./serve/bin/serve -n -d examples/aframe/flyer/ -p 7777 ``` 
 A QR code should appear in your command terminal (sometimes you have to resize the command terminal window for it to show properly). So far so good, if you get any errors in a section below I have written how to solve them.   
 6. Now to establish a connection between the 8th wall project you just made and the web folder you downloaded... Go to your project at 8th wall, click over your project, click on settings on the left side (⚙️ Gear Emoji).. click on my app key and copy it... then in the web folder go to the directory ‘web/examples/aframe’, open the flyer example and click on index.html (use a text editor). On line 17, replace ‘XXXXX’ with the App Key that you copied.  
 7. On your project of 8th wall, click on manage image targets... Go to ‘web/examples/aframe/flyer/targets’ and select ‘model-target.jpg’. Click on Upload. Finish by clicking on Save and tick load automatically.  
@@ -38,4 +38,10 @@ A QR code should appear in your command terminal (sometimes you have to resize t
 9. When you'll allow camera and scan that jellyfish modal-target.jpg ...You will get the same result as this [video](https://vimeo.com/417849499?utm_source=email&utm_medium=vimeo-cliptranscode-201504&utm_campaign=29220)... 
   
 # Customization
-Make your own customizations... By changing the model-target.jpg with any image you get from google and use your own gltf other that the regular jellyfish... Your task is developing solutions for one type of industry like garments, shoe industry, maybe coke... Like this [video I created](https://vimeo.com/user115354946/review/417852025/542b350d6a). The score for completion of the whole task is 100 points with 10 points in customization to something meaningful... Rest 90 points in achieving the jellyfish AR.
+Make your own customizations... By changing the model-target.jpg with any image you get from google and use your own gltf other that the regular jellyfish... Your task is developing solutions for one type of industry like garments, shoe industry, maybe coke... Like this [video I created](https://vimeo.com/user115354946/review/417852025/542b350d6a). The score for completion of the whole task is 100 points with 10 points in customization to something meaningful... Rest 90 points in achieving the jellyfish AR shown in step 9 above.
+  
+## Solving Errors
+See that you are in serve folder only when you run ```npm install``` in your terminal. Still sometimes this bug appears
+![](bug.png)  
+This is npm installation error which tells you to audit fix and says found 6(or more) high severity vulnerabilities...
+Fix it by typing ```npm cache clean --force``` so if any log of files prevent installing npm, or there is unexpected end of JSON.. it can be fixed.. Also don't forget to ```cd ..``` before starting the local server..
