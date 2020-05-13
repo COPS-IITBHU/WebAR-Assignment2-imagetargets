@@ -20,4 +20,6 @@ Well the answer is simple enough... You can have any image taken from google and
 # Steps:
 1. Firstly you'll need to make an account to so head straight to [8th wall's official site](https://www.8thwall.com).  
 2. Choose the option of Web Developer and make a new project, call it whatever you want to.
-
+![](ss.png)  
+This is what it will look like when you have signed in and created a project..    
+3. We will get back to this website but now open a new tab, go to [8th wall/web](https://github.com/8thwall/web). Open your command terminal and go to your Desktop (i.e. cd desktop). Enter ‘git clone https://github.com/8thwall/web.git’ in your command line. You can now see a folder named web in your desktop.
