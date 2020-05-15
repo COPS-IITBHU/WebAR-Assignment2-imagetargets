@@ -41,7 +41,7 @@ A QR code should appear in your command terminal (sometimes you have to resize t
 9. When you'll allow camera and scan that jellyfish modal-target.jpg ...You will get the same result like this [video](https://vimeo.com/417849499?utm_source=email&utm_medium=vimeo-cliptranscode-201504&utm_campaign=29220)... 
   
 # Customization
-Make your own customizations... By changing the model-target.jpg with any image you get from google and use your own gltf other that the regular jellyfish... Your task is developing solutions for one type of industry like garments, shoe industry, maybe coke... Like this [video I created](https://vimeo.com/user115354946/review/417852025/542b350d6a). The score for completion of the whole task is 100 points with 30 points in customization to something meaningful... Rest 70 points in achieving the jellyfish AR shown in step 9 above.
+Make your own customizations... By changing the model-target.jpg with any image you get from google and use your own gltf other that the regular jellyfish... Your task is developing solutions for one type of industry like garments, shoe industry, maybe coke... Like this [video I created](https://vimeo.com/user115354946/review/417852025/542b350d6a). The score for completion of the whole task is 200 points with 60 points in customization to something meaningful... Rest 140 points in achieving the jellyfish AR shown in step 9 above.
   
 ## Solving Errors
 See that you are in serve folder only when you run ```npm install``` in your terminal. Still sometimes this bug appears
